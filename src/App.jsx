@@ -34,10 +34,19 @@
 //   return <Filho onAlert={handleAlert} />;
 // }
 
-function Saudacao({ nome = 'marlo' }) {
-  return <h1>Ola, {nome}!</h1>
-}
+// function Saudacao({ nome = 'marlo' }) {
+//   return <h1>Ola, {nome}!</h1>
+// }
+
+// export default function App() {
+//   return <Saudacao nome="Pedro" />
+// }
+
+import Home from "./pages/home";
+
 
 export default function App() {
-  return <Saudacao nome="Pedro" />
+  return <>
+    <Home />
+  </>
 }

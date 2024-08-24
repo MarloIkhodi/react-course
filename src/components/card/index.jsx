@@ -1,4 +1,4 @@
-import "./style.css";
+
 export default function Card({ title, description, image, imageAlt }) {
   //toda função Js dentro de um arquivo jsx vira um parametro
   return (
