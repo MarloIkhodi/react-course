@@ -25,9 +25,19 @@
 // export default function App() {
 //   return <Filho approved={null} />;
 // }
+// function Filho({ onAlert }) {
+//   return <button onClick={onAlert}>Receba seu alert </button>;
+// }
+
+// export default function App() {
+//   const handleAlert = () => alert("Receba seu doce")
+//   return <Filho onAlert={handleAlert} />;
+// }
+
+function Saudacao({ nome = 'marlo' }) {
+  return <h1>Ola, {nome}!</h1>
+}
 
 export default function App() {
-  return (
-    <button onClick={() => alert("Função funcionando")}>Click Aqui</button>
-  );
+  return <Saudacao nome="Pedro" />
 }
