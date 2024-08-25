@@ -9,7 +9,7 @@ export default function Content() {
                 <p className="contentText">Describe exactly what your product or service does to solve this problem. <br></br>
                     Avoid using verbose words or phrases.</p>
                 <form>
-                    <input type="text" id="email" name="email" value="Enter your email" />
+                    <input type="text" name="email" value="Enter your email" />
                     <input type="submit" value="Try it for free" />
                 </form>
                 <p className="termsConditions">By clicking Sign Up you're confirming that you agree with our <a href="#">Terms and Conditions</a>.</p>

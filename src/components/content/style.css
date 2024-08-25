@@ -47,7 +47,6 @@
   margin-bottom: 16px;
 }
 .termsConditions {
-  display: inline;
   font-size: 12px;
   width: 513px;
   height: 18px;
@@ -56,7 +55,4 @@
 
 .termsConditions a {
   text-decoration: underline;
-  display: inline;
-  font-size: 12px;
-  font-weight: 600;
 }
