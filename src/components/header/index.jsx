@@ -7,10 +7,10 @@ export default function Header() {
     <header>
       <img src={Logo} alt="Site Logo" />
       <nav>
-        <a href="">Link One</a>
-        <a href="">Link Two</a>
-        <a href="">Link Three</a>
-        <a href="">
+        <a href="#">Link One</a>
+        <a href="#">Link Two</a>
+        <a href="#">Link Three</a>
+        <a href="#">
           Link Four
           <img src={Downbox} alt="Down Icon" />
         </a>

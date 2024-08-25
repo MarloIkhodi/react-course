@@ -1,10 +1,10 @@
+import "./style.css";
 
-export default function Card({ title, description, image, imageAlt }) {
-  //toda função Js dentro de um arquivo jsx vira um parametro
+export default function Card({ title = 'Titulo', description = 'descrição', image = null, imageAlt = 'Sem imagem' }) {
   return (
     <div className="card">
       <img src={image} alt={imageAlt} />
-      <p className="first">{title}</p>
+      <h2>{title}</h2>
       <p>{description}</p>
     </div>
   );
