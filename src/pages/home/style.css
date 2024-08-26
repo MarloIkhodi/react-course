@@ -1,8 +1,8 @@
 .cards {
   width: 100%;
-  margin-top: 112px;
-  margin-bottom: 112px;
+  height: 450px;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 48px;
 }

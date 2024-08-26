@@ -21,6 +21,7 @@ header a {
   color: black;
   justify-content: center;
   align-items: center;
+  font-weight: 500;
 }
 
 header button {

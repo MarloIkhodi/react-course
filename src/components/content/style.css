@@ -15,11 +15,12 @@
   height: 134px;
   font-weight: bold;
   margin-bottom: 24px;
+  line-height: 1.2;
 }
 
 .contentText {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   width: 616px;
   height: 54px;
 }
@@ -27,7 +28,7 @@
 .content form {
   margin-top: 40px;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .content form :first-child {
@@ -50,7 +51,7 @@
   font-size: 12px;
   width: 513px;
   height: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .termsConditions a {
