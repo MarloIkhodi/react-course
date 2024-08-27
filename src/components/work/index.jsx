@@ -1,6 +1,5 @@
 import "./styles.css";
-import Relume from "../../assets/images/relume.svg"
-import LittleCard from "../little-card"
+import CardTwo from "../card-two"
 
 export default function Work() {
     return (
@@ -13,29 +12,21 @@ export default function Work() {
                 <button>Learn more</button>
             </div>
             <div className="rightCards">
-                <LittleCard
+                <CardTwo
                     title="Short summary of step one"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-                    image={Relume}
-                    imageAlt="Relume"
                 />
-                <LittleCard
+                <CardTwo
                     title="Short summary of step two"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-                    image={Relume}
-                    imageAlt="Relume"
                 />
-                <LittleCard
+                <CardTwo
                     title="Short summary of step three"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-                    image={Relume}
-                    imageAlt="Relume"
                 />
-                <LittleCard
+                <CardTwo
                     title="Short summary of step four"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-                    image={Relume}
-                    imageAlt="Relume"
                     line={false}
                 />
             </div>

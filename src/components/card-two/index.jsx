@@ -1,6 +1,7 @@
 import "./styles.css";
+import Relume from "../../assets/images/relume.svg"
 
-export default function LittleCard({ title = "Titulo", description = "descrição", image = null, imageAlt = "Sem imagem", line = true }) {
+export default function LittleCard({ title = "Titulo", description = "descrição", image = Relume, imageAlt = "Sem imagem", line = true }) {
     return (
         <section className="littleCard">
             <div className="verticalImage">
