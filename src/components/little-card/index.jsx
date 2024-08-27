@@ -5,7 +5,7 @@ export default function LittleCard({ title = "Titulo", description = "descriçã
         <section className="littleCard">
             <div className="verticalImage">
                 <img src={image} alt={imageAlt} />
-                {line ? (<p className="verticalLine"></p>) : (<p></p>)}
+                {line ? (<p className="verticalLine"></p>) : null}
             </div>
             <div className="rightText">
                 <h2>{title}</h2>
