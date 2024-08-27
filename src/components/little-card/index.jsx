@@ -1,6 +1,6 @@
 import "./styles.css";
 
-export default function LittleCard({ title = "Titulo", description = "descrição", image = null, imageAlt = "Sem imagem", line }) {
+export default function LittleCard({ title = "Titulo", description = "descrição", image = null, imageAlt = "Sem imagem", line = true }) {
     return (
         <section className="littleCard">
             <div className="verticalImage">

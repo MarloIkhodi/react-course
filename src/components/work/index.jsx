@@ -18,21 +18,18 @@ export default function Work() {
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
                     image={Relume}
                     imageAlt="Relume"
-                    line
                 />
                 <LittleCard
                     title="Short summary of step two"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
                     image={Relume}
                     imageAlt="Relume"
-                    line
                 />
                 <LittleCard
                     title="Short summary of step three"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
                     image={Relume}
                     imageAlt="Relume"
-                    line
                 />
                 <LittleCard
                     title="Short summary of step four"

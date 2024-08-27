@@ -1,9 +1,10 @@
+import "./style.css";
 import Header from "../../components/header";
 import Content from "../../components/content";
 import Card from "../../components/card";
 import Relume from "../../assets/images/relume.svg"
-import "./style.css";
 import Work from "../../components/work";
+import Testimonial from "../../components/testimonial";
 
 
 export default function Home() {
@@ -28,5 +29,13 @@ export default function Home() {
       />
     </div>
     <Work />
+    <Testimonial userid={"Customer Name"}
+      subuserid={"Position, Company name"}
+      message={"\"A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers.\""}
+    />
+    <Testimonial userid={"Name Surname"}
+      subuserid={"Position, Company name"}
+      message={"\"A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers.\""}
+    />
   </>
 }
