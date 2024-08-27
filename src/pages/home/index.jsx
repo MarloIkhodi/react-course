@@ -5,6 +5,7 @@ import Card from "../../components/card";
 import Work from "../../components/work";
 import Testimonial from "../../components/testimonial";
 import ContentTwo from "../../components/content-two";
+import Faq from "../../components/faq";
 
 
 export default function Home() {
@@ -55,5 +56,8 @@ export default function Home() {
       description="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
       right />
 
+    <Faq
+      title="Frequently asked questions"
+      description="Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered." />
   </>
 }
