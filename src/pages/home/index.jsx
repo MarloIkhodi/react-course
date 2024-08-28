@@ -6,6 +6,7 @@ import Work from "../../components/work";
 import Testimonial from "../../components/testimonial";
 import ContentTwo from "../../components/content-two";
 import Faq from "../../components/faq";
+import Footer from "../../components/footer";
 
 
 export default function Home() {
@@ -59,5 +60,7 @@ export default function Home() {
     <Faq
       title="Frequently asked questions"
       description="Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered." />
+    <Footer />
+
   </>
 }
