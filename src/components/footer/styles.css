@@ -16,7 +16,6 @@ footer {
   font-size: 16px;
   font-weight: 600;
   height: 27px;
-  color: black;
 }
 
 .footerSocials {
@@ -44,5 +43,9 @@ footer {
 }
 .footerBottom a {
   text-decoration: underline;
+  color: black;
+}
+
+.footerTop a {
   color: black;
 }
