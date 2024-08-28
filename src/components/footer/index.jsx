@@ -18,10 +18,10 @@ export default function Footer() {
                 <a href="#">Link Five</a>
                 <div className="footerSocials">
                     <a href="#"><img src={Facebook} alt="facebook" /></a>
-                    <a href="https://www.instagram.com/marlon.serafim/"><img src={Instagram} alt="instagram" /></a>
-                    <a href="https://x.com/marlonfreecss"><img src={Twitter} alt="twitter" /></a>
-                    <a href="https://www.linkedin.com/in/deivid-marlon/"><img src={Linkedin} alt="linkedin" /></a>
-                    <a href="https://www.youtube.com/@marlonekk"><img src={Youtube} alt="youtube" /></a>
+                    <a href="https://www.instagram.com/marlon.serafim/" target="_blank"><img src={Instagram} alt="instagram" /></a>
+                    <a href="https://x.com/marlonfreecss" target="_blank"><img src={Twitter} alt="twitter" /></a>
+                    <a href="https://www.linkedin.com/in/deivid-marlon/" target="_blank"><img src={Linkedin} alt="linkedin" /></a>
+                    <a href="https://www.youtube.com/@marlonekk" target="_blank"><img src={Youtube} alt="youtube" /></a>
                 </div>
             </div>
             <div className="footerBottom">
