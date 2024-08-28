@@ -1,0 +1,83 @@
+.contentThree {
+  width: 100%;
+  height: 700px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.contentThree div:first-of-type {
+  margin-top: 112px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.contentThree div:last-of-type {
+  margin-bottom: 112px;
+}
+
+.contentThree h2 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  width: 768px;
+  height: 116px;
+}
+
+.contentThree p:first-of-type {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 24px;
+  width: 768px;
+  height: 54px;
+}
+
+.contentThree p:last-of-type {
+  font-weight: normal;
+  font-size: 16px;
+  height: 24px;
+  margin-bottom: 16px;
+}
+
+.contentThree form {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contentThree form :first-child {
+  text-indent: 16px;
+  width: 357px;
+  height: 48px;
+  border: 1px solid black;
+  color: gray;
+}
+
+.contentThree form :last-child {
+  margin-left: 16px;
+  width: 140px;
+  height: 48px;
+  background-color: black;
+  color: white;
+  margin-bottom: 16px;
+}
+.termsThree {
+  font-size: 12px;
+  height: 18px;
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+
+.termsThree a {
+  text-decoration: underline;
+}
+
+.threeImages {
+  height: 72px;
+  gap: 48px;
+  display: flex;
+}

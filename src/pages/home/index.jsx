@@ -7,6 +7,7 @@ import Testimonial from "../../components/testimonial";
 import ContentTwo from "../../components/content-two";
 import Faq from "../../components/faq";
 import Footer from "../../components/footer";
+import ContentThree from "../../components/content-three";
 
 
 export default function Home() {
@@ -57,9 +58,12 @@ export default function Home() {
       description="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
       right />
 
+    <ContentThree />
+
     <Faq
       title="Frequently asked questions"
       description="Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered." />
+
     <Footer />
 
   </>
