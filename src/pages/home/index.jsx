@@ -56,7 +56,7 @@ export default function Home() {
       feature="Feature three"
       title="Describe benefit of feature three"
       description="Highlight Unique Selling Proposition (USP) with a short summary of the key feature and how it benefits customers."
-      right />
+    />
 
     <ContentThree />
 

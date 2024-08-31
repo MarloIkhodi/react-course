@@ -36,7 +36,6 @@ import Brand from "./components/brand";
 
 export default function App() {
   return <>
-    {/* <Home /> */}
-    <Brand brand="mastercard" />
+    <Home />
   </>
 }
