@@ -1,7 +1,12 @@
 import "./style.css";
-import Relume from "../../assets/images/relume.svg"
+import Relume from "../../assets/images/relume.svg";
 
-export default function Card({ title = 'Titulo', description = 'descrição', image = Relume, imageAlt = 'Sem imagem' }) {
+export default function Card({
+  title = "Titulo",
+  description = "descrição",
+  image = Relume,
+  imageAlt = "Sem imagem",
+}) {
   return (
     <div className="card">
       <img src={image} alt={imageAlt} />
