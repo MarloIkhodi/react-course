@@ -1,4 +1,4 @@
-/* .contentTwo {
+.contentTwo {
   width: 100%;
   height: 864px;
   display: flex;
@@ -7,6 +7,14 @@
   gap: 80px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.contentTwoLeft {
+  flex-direction: row;
+}
+
+.contentTwoRight {
+  flex-direction: row-reverse;
 }
 
 .contentTwo div {
@@ -38,4 +46,4 @@
   height: 48px;
   border: 1px solid black;
   background-color: transparent;
-} */
+}
