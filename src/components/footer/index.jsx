@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./style.css"
 import Youtube from "../../assets/images/youtube.svg"
 import Twitter from "../../assets/images/twitter.svg"
 import Linkedin from "../../assets/images/linkedIn.svg"

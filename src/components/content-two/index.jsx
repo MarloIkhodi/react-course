@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./style.css"
 import Placholder from "../../assets/images/placeholder.svg"
 
 

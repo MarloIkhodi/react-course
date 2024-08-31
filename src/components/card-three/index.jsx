@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./style.css"
 import ChevronUp from "../../assets/images/chevron-up.svg"
 
 export default function CardThree({ question = "Question", awnser = "Awnser", topside = true, bottomside = false }) {

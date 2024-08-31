@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./style.css"
 import RelumeBig from "../../assets/images/relumebig.svg"
 import Webflowbig from "../../assets/images/webflowbig.svg"
 

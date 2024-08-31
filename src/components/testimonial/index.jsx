@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./style.css";
 import Stars from "../../assets/images/stars.svg";
 import Avatar from "../../assets/images/avatar.svg";
 import Webflow from "../../assets/images/webflow.svg";

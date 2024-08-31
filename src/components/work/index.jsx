@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./style.css";
 import CardTwo from "../card-two"
 
 export default function Work() {

@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./style.css";
 import Logo from "../../assets/images/logo.svg";
 import Downbox from "../../assets/images/chevron-down.svg";
 

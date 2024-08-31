@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./style.css"
 import CardThree from "../card-three"
 
 export default function Faq({ title = "Titulo", description = "Descrição" }) {
