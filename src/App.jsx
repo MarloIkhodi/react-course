@@ -32,12 +32,13 @@
 
 import Home from "./pages/home";
 import Count from "./assets/class/hooks/useState/count";
+import Accordion from "./assets/class/hooks/useState/accordion";
 
 export default function App() {
   return (
     <>
       {/* <Home /> */}
-      <Count />
+      <Accordion />
     </>
   );
 }
