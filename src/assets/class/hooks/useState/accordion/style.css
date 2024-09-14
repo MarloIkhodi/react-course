@@ -1,0 +1,26 @@
+.accordinContainer {
+    display: grid;
+    width: 100%;
+
+}
+
+.accordionTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid black;
+    width: 130px;
+    height: 35px;
+    margin: auto;
+}
+
+.accordionContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+
+}
