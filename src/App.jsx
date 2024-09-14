@@ -31,13 +31,12 @@
 // }
 
 import Home from "./pages/home";
-import CountEffect from "./assets/class/hooks/use-hooks/count-effect";
-
+import PokemonApi from "./assets/class/hooks/use-hooks/pokemon-api";
 export default function App() {
   return (
     <>
       {/* <Home /> */}
-      <CountEffect />
+      <PokemonApi />
     </>
   );
 }
