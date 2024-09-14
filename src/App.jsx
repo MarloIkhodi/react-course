@@ -31,12 +31,12 @@
 // }
 
 import Home from "./pages/home";
-import Exemple from "./assets/class/hooks/useEffect/exemple";
+import CountEffect from "./assets/class/hooks/use-effect/count-effect";
 export default function App() {
   return (
     <>
       {/* <Home /> */}
-      <Exemple />
+      <CountEffect />
     </>
   );
 }
