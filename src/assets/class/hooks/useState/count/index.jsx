@@ -1,3 +1,14 @@
+import { useState } from "react"
+
 export default function Count() {
-    return (<h1>Ola mundo</h1>)
+    const [count, setCount] = useState(0) //possivel inserir o valor que quiser no state, boolean, float, etc
+    // function handleCount(){
+    //     setCount(count + 1)
+    // }
+    return (
+        <div>
+            <p>Você clicou {count} vezes</p>
+            <button onClick={() => setCount(count + 1)}>Clique Aqui</button>
+        </div>
+    )
 }
