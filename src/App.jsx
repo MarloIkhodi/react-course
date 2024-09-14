@@ -31,7 +31,8 @@
 // }
 
 import Home from "./pages/home";
-import CountEffect from "./assets/class/hooks/use-effect/count-effect";
+import CountEffect from "./assets/class/hooks/use-hooks/count-effect";
+
 export default function App() {
   return (
     <>
