@@ -31,14 +31,12 @@
 // }
 
 import Home from "./pages/home";
-import Count from "./assets/class/hooks/useState/count";
-import Accordion from "./assets/class/hooks/useState/accordion";
-
+import Exemple from "./assets/class/hooks/useEffect/exemple";
 export default function App() {
   return (
     <>
       {/* <Home /> */}
-      <Accordion />
+      <Exemple />
     </>
   );
 }
