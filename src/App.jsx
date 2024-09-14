@@ -31,11 +31,13 @@
 // }
 
 import Home from "./pages/home";
+import Count from "./assets/class/hooks/useState/count";
 
 export default function App() {
   return (
     <>
       <Home />
+      <Count />
     </>
   );
 }
