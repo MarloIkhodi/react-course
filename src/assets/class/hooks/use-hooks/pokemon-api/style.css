@@ -1,0 +1,47 @@
+.pokedexContainer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: hsla(0, 100%, 50%, 0.7);
+}
+
+.pokedexContainer h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: auto;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.pokedexCards {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    justify-content: center;
+    gap: 24px;
+}
+
+.pokedexCardsChild img {
+    padding: 10px;
+    background-color: hsla(0, 2%, 20%, 0.5);
+}
+
+.pokedexCardsChild {
+    border: 3px solid yellow;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: hsla(0, 2%, 20%, 1);
+}
