@@ -35,8 +35,8 @@ import PokemonApi from "./assets/class/hooks/use-hooks/pokemon-api";
 export default function App() {
   return (
     <>
-      {/* <Home /> */}
-      <PokemonApi />
+      <Home />
+      {/* <PokemonApi /> */}
     </>
   );
 }
