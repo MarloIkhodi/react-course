@@ -12,7 +12,7 @@ import ContentThree from "../../components/content-three";
 export default function Home() {
   return (
     <>
-      <Header />;
+      <Header />
       <Content />
       <div className="cards">
         <Card

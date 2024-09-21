@@ -7,7 +7,7 @@ export default function PokemonApi() {
     const [error, setError] = useState(null)
     const [sprites, setSprites] = useState({})
     useEffect(() => {
-        fetch("https://pokeapi.co/api/v2/pokemon/?limit=1025 ")
+        fetch("https://pokeapi.co/api/v2/pokemon/?limit=151 ")
             .then((res) => res.json())
             .then((data) => {
                 setPokemons(data.results)
